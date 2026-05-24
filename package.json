@@ -1,0 +1,34 @@
+{
+  "name": "backend-interview-coach",
+  "version": "1.0.0",
+  "description": "Resume-driven backend interview training skill for AI agents. Simulates backend Tech Lead interviews with 14 training modes including mock interviews, project deep dives, system design, high-concurrency training, fault diagnosis, JD matching, and leveling assessment.",
+  "keywords": [
+    "backend",
+    "interview",
+    "mock-interview",
+    "system-design",
+    "high-concurrency",
+    "java",
+    "golang",
+    "python",
+    "skill",
+    "hermes-agent",
+    "claude-code",
+    "codex-cli"
+  ],
+  "license": "MIT",
+  "author": "qkdegithub",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qkdegithub/backend-interview-coach"
+  },
+  "bin": {
+    "backend-interview-coach": "./cli.js"
+  },
+  "files": [
+    "SKILL.md",
+    "cli.js",
+    "agents/",
+    "references/"
+  ]
+}
