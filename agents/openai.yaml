@@ -1,0 +1,4 @@
+interface:
+  display_name: "Backend Interview Coach"
+  short_description: "Resume-driven backend mock interview training"
+  default_prompt: "Use $backend-interview-coach to analyze my resume and run a backend mock interview."
