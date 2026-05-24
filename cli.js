@@ -33,6 +33,8 @@ function install(target) {
     process.exit(1);
   }
 
+  fs.mkdirSync(dest, { recursive: true });
+
   // Copy SKILL.md
   fs.copyFileSync(path.join(PKG_DIR, 'SKILL.md'), path.join(dest, 'SKILL.md'));
 
